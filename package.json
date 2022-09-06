@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "rimraf .buid && tsc",
-    "start": "npm-run build && node build/app.js",
+    "start": "npm run build && node build/app.js",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
