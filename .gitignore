@@ -1,4 +1,5 @@
 node_modules
-./build
-!./build/keep
-tokens
+whatsapp-session*.json
+package-lock.json
+downloaded-media/
+.wwebjs_auth
