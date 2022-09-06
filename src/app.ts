@@ -6,11 +6,13 @@ const sender = new Sender()
 
 const app = express()
 
+const PORT = process.env.PORT || 5000
+
 app.use(express.json())
 app.use(express.urlencoded( { extended: false }))
 
 app.get('/status', (req: Request, res: Response) => {
-
+  
 })
 
 app.post('/send', async (req: Request, res: Response) => {
@@ -31,6 +33,4 @@ app.post('/send', async (req: Request, res: Response) => {
   
 })
 
-app.listen(5000, () => {
-  console.log('Server started.')
-})
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
