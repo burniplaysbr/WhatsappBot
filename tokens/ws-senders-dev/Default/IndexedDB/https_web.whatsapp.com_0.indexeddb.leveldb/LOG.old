@@ -1,0 +1,5 @@
+2022/09/06-18:13:54.446 1651 Reusing MANIFEST /workspace/WhatsappBot/tokens/ws-senders-dev/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/06-18:15:36.568 1651 Level-0 table #5: started
+2022/09/06-18:15:36.572 1651 Level-0 table #5: 77656 bytes OK
+2022/09/06-18:15:36.572 1651 Delete type=0 #3
+2022/09/06-18:15:36.572 1651 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
